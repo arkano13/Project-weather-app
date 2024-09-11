@@ -1,0 +1,175 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    height: 100vh;
+
+}
+
+.search-container {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px; /* Agrega espacio arriba si es necesario */
+    margin-bottom: 20px; 
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    height: 15px;   
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+    margin: 20px;
+    background-color: #ebfffc;
+    
+}
+
+button {
+    background-color: #ebfffc;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.search-icon {
+    margin-right: 8px;
+    font-size: 18px;
+    
+}
+
+
+#weatherInfo{
+    margin-top: 40px;
+    height: auto;
+    min-height: 100px;
+    width: 470px;
+    border-radius: 10px;
+    background-color:  rgba(173, 216, 230, 0.5);
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+
+
+
+#bigImgDiv{
+ height: 180PX;
+}
+
+
+#searchImg{
+    height: 28px;
+}
+
+
+#temperature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.imgInfo{
+    height: 60px;
+    
+}
+
+#moreInfo{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;   
+    
+
+    
+}
+
+#Humidity{
+    width: 25%;
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+#HumidityInfo{
+    height: 65px;
+    width: 120px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#wind{
+    width: 45%;
+    display: flex;
+    flex-direction: row-reverse;
+ 
+
+}
+
+#windInfo{
+
+    height: 65px;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 15px;
+
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
